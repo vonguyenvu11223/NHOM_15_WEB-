@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    height: 70px;
+    background-color: rgb(195, 202, 202);
+}
+
+.nav li {
+    padding: 30px;
+    transition: 0.5s;
+
+}
+.nav li a{
+    color: black;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.produc-child{
+    list-style: none;
+    display: none;
+    
+}
+
+.produc-child li{
+    background-color: aquamarine;
+    padding: 30px;
+   
+}
+
+.nav li:hover .produc-child {
+    display: block;
+}
