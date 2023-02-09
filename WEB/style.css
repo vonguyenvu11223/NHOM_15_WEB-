@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.header{
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(./IMG/How-to-Use-2-Computers-Within-One-Monitor.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.narbar{
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+}
+
+.logo-box{
+    padding-top: 10px;
+    width: 30%;
+    float: left;
+}
+
+.logo
+{
+   
+    color: #ff7200;
+    font-size: 30px;
+    font-family: cursive;
+    float: left;
+    padding-top: .6%;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.menu{
+    width: 60%;
+    float: right;
+}
+
+ul{
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    font-size: 16px;
+    padding: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:    #ff7200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: #ff7200;
+    cursor:pointer;
+    font-size: 25px;
+}
+
+.space{
+    height: 70px;
+}
+
+.search-box{
+    border: double 5px orange;
+    margin: auto;
+    width: 300px;
+    background: white;
+    height: 40px;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-left: 15px;
+}
+
+.search-txt{
+    width: 250px;
+    border: none;
+    background: none;
+    color: black;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .6px;
+}
+
+.search-btn{
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+
+.content h1{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 150px;
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(232, 148, 103), rgba(215, 133, 45, 0.889));
+    padding: 50px;
+    color:  #281404;
+}
+
+.content h3{
+    overflow: hidden;
+    height: 12%;
+    color: #050200;
+    padding: 2%;
+    margin: 5px;
+    background-color: #e67418;
+    border-radius: 10px;
+}
+
+#list-card{
+    padding: 5%;
+    /* background-image: linear-gradient(45deg, rgb(88, 38, 39), rgb(39, 18, 95)); */
+    background-color: rgb(235, 228, 218);
+}
+
+.card{
+    border: solid 5px orange;
+  box-sizing: border-box;
+   width: 17%;
+   height: 250px;
+   border-radius: 10px;
+   margin-left: 2%;
+   cursor: pointer;
+   background-position: center;
+   background-size: cover;
+   display: inline-block;
+   transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(./IMG/Blade-15-2019-Advanced-Model-Studio-Photo-02-1-1024x683-800x533.png);
+}
+
+.card2{
+    background-image: url(./IMG/dan-van-phong-chn-mua-laptop-nao-cho-phu-hp_b8a47ed9.jpg);
+}
+
+.card3{
+    background-image: url(./IMG/2112_top-5-laptop-do-hoa-ky-thuat-gia-re-dang-can-nhac-7.jpg);
+}
+
+.card4{
+    background-image: url(./IMG/mong.jpg);
+}
+
+.card5{
+    background-image: url(./IMG/sang.jpeg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.footer{
+    height: 100px;
+    background-image: linear-gradient(45deg, rgb(232, 148, 103), rgba(215, 133, 45, 0.889));
+}
+
+.infor{
+    padding: 20px;
+    float: left;
+}
+
+.member{
+    padding: 20px;
+ 
+ 
+}
+
+
+
+
