@@ -63,6 +63,7 @@ ul li a{
     color:    #ff7200;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    transition: 1s ease;
 }
 
 ul li a:hover{
@@ -84,6 +85,8 @@ ul li a:hover{
     border-radius: 10px;
     padding-top: 2px;
     padding-left: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .search-txt{
@@ -94,12 +97,16 @@ ul li a:hover{
     font-size: 16px;
     line-height: 30px;
     letter-spacing: .6px;
+    flex:1 ;
+    border: none;
+    outline: none;
 }
 
 .search-btn{
     text-decoration: none;
     background: white;
     color: black;
+    padding: 4px;
 }
 
 .content h1{
