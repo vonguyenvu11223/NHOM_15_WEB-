@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* css brand */
+.brand{
+    text-align: center;
+    background-color: rgb(202, 200, 200);
+    height: 56px;
+}
+
+.brand .img_brand{
+    width: 12.5%;
+    display: inline-block;
+    align-items: center;
+    line-height: 56px;
+}
+.img_brand a{
+    height: 30px;
+    width: 12.5%;
+}
+
+.img_brand a img{
+    margin-top: 10px;
+    width: 50%;
+    height: 35px;
+    object-fit: contain;
+}
+
+/* price range */
+.price_range{
+    text-align: center;
+    background-color: rgb(202, 200, 200);
+    height: 56px;
+}
+
+.price_range .price{
+    width: 20%;
+    float: left;
+    padding: 1em;
+    position: relative;
+    background-color: rgb(202, 200, 200);
+    font-size: 20px;
+}
+
+.price_range .price a{
+    text-decoration: none;
+    color: #f0f0f0;
+    background-color: #De2727;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.price_range .price a:hover{
+    color: rgb(202, 200, 200);
+}
+
+/* product */
+.product{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.product .laptop_gaming .button li{
+    list-style: none;
+    text-align: center;
+    float: left;
+    margin-left: 30px;
+}
+
+.product .laptop_gaming{
+    width: 29%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border: 0.1px solid #E4e6ea;
+    margin: 20px 10px; 
+    display: inline-block;
+}
+
+.product .laptop_gaming:hover{
+    box-shadow: 1px 0.8px 0.8px 0.8px #D9dde4;
+    cursor: pointer;
+}
+
+.product .laptop_gaming:hover a img{
+    transform: translateY(-20px);
+}
+
+.product .laptop_gaming a img{
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.product .laptop_gaming h1{
+    color: #000;
+    font-size: 1.19em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.laptop_gaming p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.description ul li{
+    font-size: 16px;
+    text-align: start;
+    list-style: none;
+    margin-top: 3px;
+}
+
+.button .button-btn{
+    border: none;
+    background-color: gray;
+    border-radius: 7px;
+    width: 130px;
+    height: 50px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+
+.button .btn__card .btn_cart{
+    height: 30px;
+    width: 30px;
+}
+
+.button .button-btn:hover{
+    background-color: red;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+
+/* next page */
+.button_num ul{
+    margin: 0;
+    padding-bottom: 30px;
+    list-style-type: none;
+}
+
+.button_num ul li{
+    display: inline-block;
+}
+
+.button_num ul .button-num{
+    border: none;
+    background-color: gray;
+    color: black;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+.button_num ul .button-num:hover{
+    background-color: #000;
+    color: #f0f0f0;
+    cursor: pointer;
+}
